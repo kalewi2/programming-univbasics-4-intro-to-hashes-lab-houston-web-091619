@@ -39,8 +39,8 @@ def update_counting_hash(hash, key)
     # if the provided key is not present in the hash, add it and assign it to the value of 1
   #if update_counting_hash
   # if the provided key is present, increment its value by 1
-  if hash[key] do
-    key + 1
+  if hash[key] = NIL do
+    hash => key + 1
   else 
   return hash[key]
 end
