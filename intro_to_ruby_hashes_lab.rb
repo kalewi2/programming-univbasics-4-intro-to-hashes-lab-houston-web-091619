@@ -40,7 +40,6 @@ def update_counting_hash(hash, key)
   #if update_counting_hash
   # if the provided key is present, increment its value by 1
   if hash[key] = NIL {
-    do
     hash[key] = 1
     }  else {
     hash[key] += 1 }
